@@ -38,3 +38,7 @@ I work with **Linux and Windows environments** and maintain a personal **homelab
 ## 📫 Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/m4nifest0-tech)
+
+For questions, suggestions or business inquiries:
+
+📧 m4nifest0-tech@m4nifest0.it
