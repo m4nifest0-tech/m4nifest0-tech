@@ -1,0 +1,14 @@
+name: Add contact section to READMEs
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+jobs:
+  add-contact:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run contact README updater
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: bash scripts/add-contact-readme.sh
